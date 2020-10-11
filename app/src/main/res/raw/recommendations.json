@@ -39,6 +39,31 @@
       "title": "Un mundo sin etiquetas",
       "url": "https://www.youtube.com/watch?v=TG0wqcct2B4",
       "type": "Video"
+    },
+    {
+      "title": "Programming Ebooks",
+      "url": "tg://resolve?domain=javaebooks",
+      "type": "Telegram"
+    },
+    {
+      "title": "Design for Users",
+      "url": "tg://resolve?domain=design4users",
+      "type": "Telegram"
+    },
+    {
+      "title": "English Gate Leaners",
+      "url": "tg://resolve?domain=EnglishGate",
+      "type": "Telegram"
+    },
+    {
+      "title": "Pildoras UX",
+      "url": "https://open.spotify.com/show/6jc0fnwFlPXJ2LA1BXaTo6",
+      "type": "Podcast"
+    },
+    {
+      "title": "Podcast Platzi",
+      "url": "https://open.spotify.com/show/66phcUoQsM3URyzhFDz9ig?si=jmcVNcSfSo24z2xsammXQw",
+      "type": "Podcast"
     }
   ]
 }

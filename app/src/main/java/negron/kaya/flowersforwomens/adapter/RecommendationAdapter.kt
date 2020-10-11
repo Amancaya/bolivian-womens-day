@@ -2,11 +2,13 @@ package negron.kaya.flowersforwomens.adapter
 
 import android.content.Context
 import android.content.Intent
+import android.content.Intent.FLAG_ACTIVITY_NEW_TASK
 import android.graphics.Paint
 import android.net.Uri
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import negron.kaya.flowersforwomens.R
@@ -39,13 +41,14 @@ class RecommendationHolder(private val rootView: View): RecyclerView.ViewHolder(
             findViewById<TextView>(R.id.title).apply {
                 text = recommendation.title
             }
-            setOnClickListener { redirection(rootView.context, recommendation.url) }
+            findViewById<ImageView>(R.id.img_cover).apply {
+                RecommendationHandle.loadImage(recommendation, this)
+            }
+            setOnClickListener { redirection(rootView.context, recommendation) }
         }
     }
 
-    private fun redirection(context: Context, url: String) {
-        Intent(Intent.ACTION_VIEW, Uri.parse(url)).apply {
-            context.startActivity(this)
-        }
+    private fun redirection(context: Context, recommendation: Recommendation) {
+        RecommendationHandle.startIntent(recommendation, context)
     }
 }
