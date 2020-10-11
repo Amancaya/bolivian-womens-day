@@ -1,0 +1,44 @@
+{
+  "resources": [
+    {
+      "title": "Programar con impacto social",
+      "url": "https://www.youtube.com/watch?v=0cx8UwdN-g4",
+      "type": "Video"
+    },
+    {
+      "title": "La educación en la era de la  inteligencia artificial",
+      "url": "https://www.youtube.com/watch?v=18QBF0LifbY&ab_channel=AprendemosJuntos",
+      "type": "Video"
+    },
+    {
+      "title": "Programar para aprender sin límites",
+      "url": "https://www.ted.com/talks/antonio_garcia_vicente_porque_le_enseno_a_ninos_como_yo_a_programar?language=es",
+      "type": "Video"
+    },
+    {
+      "title": "Adquiere nuevas habilidades para el mundo digital",
+      "url": "https://learndigital.withgoogle.com/garagedigital",
+      "type": "Blog"
+    },
+    {
+      "title": "Trabaja, enseña y apende  desde cualquier lugar",
+      "url": "https://events.withgoogle.com/crececongoogleencasa/",
+      "type": "Blog"
+    },
+    {
+      "title": "Se regalan dudas",
+      "url": "https://open.spotify.com/show/0KUjSzqMyxrTyXuw15j4e8",
+      "type": "Podcast"
+    },
+    {
+      "title": "Lecciones de vida de un espíritu indomable",
+      "url": "https://www.youtube.com/watch?v=HnGKvC4iDG0",
+      "type": "Video"
+    },
+    {
+      "title": "Un mundo sin etiquetas",
+      "url": "https://www.youtube.com/watch?v=TG0wqcct2B4",
+      "type": "Video"
+    }
+  ]
+}

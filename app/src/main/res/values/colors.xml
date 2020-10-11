@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#00BFA5</color>
+
+    <color name="text_primary_color">#393939</color>
+
+    <color name="background">#fff</color>
+    <color name="toggle_unselected_color">#90e0d3</color>
+    <color name="toggle_selected_color">#00BFA5</color>
+    <color name="btn_text_color">#fff</color>
+</resources>

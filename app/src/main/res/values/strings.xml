@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FlowersForWomens</string>
+
+    <string name="title_page_1">Día de la Mujer \nBoliviana</string>
+    <string name="subtitle_page_1">Celebración</string>
+    <string name="title_page_2">¿Sabes por qué estamos celebrando este día?</string>
+    <string name="description_page_2">Porque un día como hoy 11 de Octubre se estableció como día de la Mujer Boliviana, recordando el nacimiento de Adela Zamudio, quién fue escritora, maestra, poetiza y luchadora social por las mujeres bolivianas</string>
+    <string name="description_page_3">Queremos compartirte algunos recursos que a cada una de nosotras en su momento nos ayudó</string>
+    <string name="description_page_4">Para terminar, queremos darte un último presente, esperemos que te guste!</string>
+    <string name="btn_show_present">Recibir presente</string>
+    <string name="description_page_5">¡Feliz Día de la \nMujer Boliviana!</string>
+    <string name="github_text">Esta app fue hecha con amor, el \ncodigo lo puedes encontrar en</string>
+</resources>
