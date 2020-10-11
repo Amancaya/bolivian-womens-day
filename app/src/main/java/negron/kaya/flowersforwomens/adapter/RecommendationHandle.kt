@@ -10,17 +10,6 @@ import negron.kaya.flowersforwomens.models.RecommendationType
 
 object RecommendationHandle {
 
-    fun startIntent(recommendation: Recommendation, context: Context) =
-        when(recommendation.getEnumType()) {
-            RecommendationType.Telegram -> Intent(Intent.ACTION_VIEW, Uri.parse(recommendation.url)).apply {
-                flags = Intent.FLAG_ACTIVITY_NEW_TASK
-                context.startActivity(this)
-            }
-            else -> Intent(Intent.ACTION_VIEW, Uri.parse(recommendation.url)).apply {
-                context.startActivity(this)
-            }
-        }
-
     fun loadImage(recommendation: Recommendation, imageView: ImageView) {
         try {
             when(recommendation.getEnumType()) {

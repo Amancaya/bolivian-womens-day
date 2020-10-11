@@ -13,6 +13,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import negron.kaya.flowersforwomens.R
 import negron.kaya.flowersforwomens.models.Recommendation
+import negron.kaya.flowersforwomens.models.RecommendationType
 import kotlin.properties.Delegates
 
 class RecommendationAdapter: RecyclerView.Adapter<RecommendationHolder>() {
@@ -49,6 +50,9 @@ class RecommendationHolder(private val rootView: View): RecyclerView.ViewHolder(
     }
 
     private fun redirection(context: Context, recommendation: Recommendation) {
-        RecommendationHandle.startIntent(recommendation, context)
+        Intent(Intent.ACTION_VIEW, Uri.parse(recommendation.url)).apply {
+            flags = FLAG_ACTIVITY_NEW_TASK
+            context.startActivity(this)
+        }
     }
 }
